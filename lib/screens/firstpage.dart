@@ -36,7 +36,13 @@ class FisrtPage extends StatelessWidget {
                     style: TextButton.styleFrom(),
                     child: const Text("GO!"),
                   ),
-                  Image.asset("assets/images/flxgdsc_logo.png", scale: 1.5),
+                  const SizedBox(
+                    height: 20.0,
+                  ),
+                  Image.asset(
+                    "assets/images/flxgdsc_logo.png",
+                    fit: BoxFit.cover,
+                  ),
                 ],
               ),
             ),

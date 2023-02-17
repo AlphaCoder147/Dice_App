@@ -20,7 +20,11 @@ class _SecondPageState extends State<SecondPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Flutter x GDSC TAE"),
+        title: Image.asset(
+          "assets/images/flxgdsc_logo.png",
+          fit: BoxFit.cover,
+          alignment: Alignment.center,
+        ),
       ),
       body: Center(
         child: SingleChildScrollView(
